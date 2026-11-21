@@ -1,0 +1,35 @@
+# Data (downloaded from Kaggle — don't commit)
+data/
+*.zip
+*.csv
+*.parquet
+*.jsonl
+submission*.csv
+
+# Secrets
+kaggle.json
+.env
+access_token
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models / outputs
+models/
+outputs/
+*.pkl
+*.joblib
+*.pt
+*.bin
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
